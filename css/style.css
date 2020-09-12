@@ -459,7 +459,7 @@ Header
   padding: 15px 18px;
 }
 .navbar-default .navbar-nav > li > a:focus {
-  color: #111111;
+  color: #fc427f;
 }
 .navbar-default .navbar-nav > li > a:hover {
   color: #fc427f;
@@ -618,7 +618,7 @@ Header
 }
 
 #drop-down-adj {
-  margin: -2rem 0 0;
+  margin: -1rem 0 0;
 }
 
 .navbar-toggle {
@@ -2669,7 +2669,7 @@ Album
 
 /*** Track Section ***/
 .tracks-section {
-  background-image: url(../images/bg/album-tracks-bg.jpg);
+  background-image: url(../images/bg/album-tracks-bg.png);
   background-position: center center;
   background-size: cover;
 }

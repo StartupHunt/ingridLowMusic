@@ -84,10 +84,10 @@
                 <a href="concert-single.html">Conciertos</a>
               </li>
               <li class="dropdown">
-                <a href="album.html">Albums</a>
+                <a href="#">Albums</a>
                 <ul id="drop-down-adj" class="dropdown-menu">
-                  <li><a href="upcoming-concert.html">Moonlight</a></li>
-                  <li><a href="concert-single.html">Sin Miedo</a></li>
+                  <li><a href="album.html">Moonlight</a></li>
+                  <li><a href="album-2.html">Sin Miedo</a></li>
                 </ul>
               </li>
               <li>
@@ -659,7 +659,7 @@
 
       <!-- News & Blog -->
 
-      <div class="section section-padding">
+    <!--   <div class="section section-padding">
         <div class="container">
           <div class="row">
             <div class="col-lg-8 offset-lg-2 col-12">
@@ -807,8 +807,142 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
       <!-- News & Blog End -->
+      <!-- Track List -->
+      <div class="section tracks-section text-white">
+        <div class="overlay section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 offset-lg-2 col-12">
+                        <div class="section-header text-center">
+                            <h3 class="section-title">Tracklist</h3>
+                            <p class="section-subtext">Descubre mis principales canciones. Si deseas escuchar material exclusivo, compra mi EP Moonlight Premium.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="music-wrap">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-5 col-12">
+                                    <div id="player-one" class="player-main-block">
+                                        <div class="album-art-block">
+                                            <div class="track-meta-info" id="meta-container">
+                                                <span class="song-name" amplitude-song-info="name" amplitude-main-song-info="true"></span>
+                                                <div class="song-artist-album">
+                                                    - <span amplitude-song-info="artist" amplitude-main-song-info="true"></span>
+                                                </div>
+                                            </div>
+                                            <div class="album-art-space">
+                                                <img class="img-responsive" amplitude-song-info="cover_art_url" amplitude-main-song-info="true" alt="..." />
+                                            </div>
+                                        </div>
+                                        <div id="amplitude-left" class="audio-controller-wrap">
+                                            <div id="player-left-bottom">
+
+                                                <div class="time-controller-block" id="time-container">
+                                                    <div class="input-range-block">
+                                                        <span class="current-time">
+                                <span class="amplitude-current-minutes" amplitude-main-current-minutes="true"></span>:<span class="amplitude-current-seconds" amplitude-main-current-seconds="true"></span>
+                                                        </span>
+                                                        <div class="track-progress-wrap">
+                                                            <input type="range" class="amplitude-song-slider full-width" min="1" max="100" step="1" amplitude-main-song-slider="true" />
+                                                            <div class="track-progress"></div>
+                                                        </div>
+                                                        <span class="duration">
+                                <span class="amplitude-duration-minutes" amplitude-main-duration-minutes="true"></span>:<span class="amplitude-duration-seconds" amplitude-main-duration-seconds="true"></span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div id="control-container" class="control-container">
+                                                    <div id="central-control-container">
+                                                        <div id="central-controls" class="audio-controller-block">
+                                                            <div class="controller-common amplitude-prev" id="previous"></div>
+                                                            <div class="controller-common amplitude-play-pause play-pause-btn" amplitude-main-play-pause="true" id="play-pause"></div>
+                                                            <div class="controller-common amplitude-next" id="next"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="player-footer">
+                                                    <div class="volume-container">
+                                                        <i class="fa fa-volume-down" aria-hidden="true"></i>
+                                                        <input type="range" class="amplitude-volume-slider volume-slider-one" />
+                                                        <i class="fa fa-volume-up" aria-hidden="true"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-8 col-md-7 col-12 sm-top-m-30">
+                                    <div class="player-track-list-block">
+                                        <div class="song amplitude-song-container amplitude-play-pause" amplitude-song-index="0" data-song="audio/sinmiedo.mp3" data-cover="images/album-art/1.png">
+                                            <div class="song-meta-data">
+                                                <span class="song-title">Sin Miedo</span>
+                                                <span class="song-artist">Ingrid Löw</span>
+                                            </div>
+                                            <div class="play-now">
+                                                <a class="btn btn-sm btn-black"><span class="normal-state">Escuchar</span><span class="play-state">Pausa</span></a>
+                                            </div>
+                                        </div>
+                                        <div class="song amplitude-song-container amplitude-play-pause" amplitude-song-index="1" data-song="audio/moonlight.mp3" data-cover="images/album-art/2.png">
+                                            <div class="song-meta-data">
+                                                <span class="song-title">Moonlight</span>
+                                                <span class="song-artist">Ingrid Löw</span>
+                                            </div>
+                                            <div class="play-now">
+                                                <a class="btn btn-sm btn-black"><span class="normal-state">Escuchar</span><span class="play-state">Pausa</span></a>
+                                            </div>
+                                        </div>
+                                        <div class="song amplitude-song-container amplitude-play-pause" amplitude-song-index="2" data-song="audio/ithinkimready.mp3" data-cover="images/album-art/2.png">
+                                            <div class="song-meta-data">
+                                                <span class="song-title">I Think I'm Ready</span>
+                                                <span class="song-artist">Ingrid Löw</span>
+                                            </div>
+                                            <div class="play-now">
+                                                <a class="btn btn-sm btn-black"><span class="normal-state">Escuchar</span><span class="play-state">Pausa</span></a>
+                                            </div>
+                                        </div>
+                                        <div class="song amplitude-song-container amplitude-play-pause" amplitude-song-index="3" data-song="audio/painsong.mp3" data-cover="images/album-art/2.png">
+                                            <div class="song-meta-data">
+                                                <span class="song-title">Pain Song</span>
+                                                <span class="song-artist">Ingrid Löw</span>
+                                            </div>
+                                            <div class="play-now">
+                                                <a class="btn btn-sm btn-black"><span class="normal-state">Escuchar</span><span class="play-state">Pausa</span></a>
+                                            </div>
+                                        </div>
+                                        <div class="song amplitude-song-container amplitude-play-pause" amplitude-song-index="4" data-song="audio/rememberme.mp3" data-cover="images/album-art/2.png">
+                                            <div class="song-meta-data">
+                                                <span class="song-title">Remember Me</span>
+                                                <span class="song-artist">Ingrid Löw</span>
+                                            </div>
+                                            <div class="play-now">
+                                                <a class="btn btn-sm btn-black"><span class="normal-state">Escuchar</span><span class="play-state">Pausa</span></a>
+                                            </div>
+                                        </div>
+                                        <div class="song amplitude-song-container amplitude-play-pause" amplitude-song-index="5" data-song="audio/youweregone.mp3" data-cover="images/album-art/2.png">
+                                            <div class="song-meta-data">
+                                                <span class="song-title">You Were Gone</span>
+                                                <span class="song-artist">Ingrid Löw</span>
+                                            </div>
+                                            <div class="play-now">
+                                                <a class="btn btn-sm btn-black"><span class="normal-state">Escuchar</span><span class="play-state">Pausa</span></a>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Track List End -->
     </div>
 
     <footer>
