@@ -597,13 +597,13 @@ Header
 
 .navbar-brand {
   height: 70px;
-  padding-top: 22px;
   padding-bottom: 22px;
   margin-top: 15px;
   margin-bottom: 15px;
 }
 
 /***  Version 1.1 fix ***/
+
 .navbar-default .dropdown-menu {
   min-width: 190px;
 }
@@ -615,6 +615,10 @@ Header
 .navbar-default .dropdown-menu > li > a:focus,
 .dropdown-menu > li > a:hover {
   background-color: #f5f5f5;
+}
+
+#drop-down-adj {
+  margin: -2rem 0 0;
 }
 
 .navbar-toggle {
