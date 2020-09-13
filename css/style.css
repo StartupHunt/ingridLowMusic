@@ -327,7 +327,7 @@ Button
 .btn.btn-border.btn-black:active:hover,
 .btn.btn-border.btn-black:active:focus:hover {
   color: #ffffff !important;
-  border-color: #fc427f;
+  border-color: #d4c7cc;
 }
 .btn.btn-white {
   background-color: #ffffff;
@@ -1004,7 +1004,7 @@ Show Styles
   border-bottom: none;
 }
 .show-table tr:hover {
-  background-image: url(../images/bg/show-table-bg.jpg);
+  background-image: url(../images/bg/show-table-bg.png);
 }
 .show-table tr:hover .show-date,
 .show-table tr:hover .show-hall,
@@ -2255,7 +2255,7 @@ Footer
 Page Header
 --------------------------------*/
 .page-header {
-  background-image: url(../images/banner/1.png);
+  background-image: url(../images/banner/4.png);
   background-size: cover;
   background-position: center center;
   margin: 0;
