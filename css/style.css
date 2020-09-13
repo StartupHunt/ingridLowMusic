@@ -2254,6 +2254,14 @@ Footer
 /*--------------------------------
 Page Header
 --------------------------------*/
+#concert-page {
+  background-image: url(../images/banner/5.png);
+}
+
+#album-header {
+  background-image: url(../images/banner/6.png);
+}
+
 .page-header {
   background-image: url(../images/banner/4.png);
   background-size: cover;
@@ -2738,7 +2746,7 @@ Album
   margin-left: 6px;
 }
 .rating-star:before {
-  content: "\f006";
+  content: "\f005";
   font-family: "FontAwesome";
   font-size: 1.4rem;
 }

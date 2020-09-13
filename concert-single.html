@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+  <!--<a href='https://www.freepik.com/photos/background'>Background photo created by awesomecontent - www.freepik.com</a>-->
+  <!--<a href='https://www.freepik.com/vectors/background'>Background vector created by vectorpocket - www.freepik.com</a>-->
+  <!--<a href='https://www.freepik.com/vectors/background'>Background vector created by Creative_hat - www.freepik.com</a>  -->
   <head>
     <!-- Site information -->
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Mxtonz - A Fresh Music, Band &amp; Dj Template</title>
-    <meta
-      name="description"
-      content="A Bootstrap 3 Full and Final HTML Template for music band, dj, music agency or any kind of website related to music industry"
-    />
+    <title>Ingrid Löw &amp; Music</title>
+    <meta name="description" content="Sitio Web oficial de Ingrid Löw." />
 
     <!-- External CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
@@ -31,15 +31,19 @@
     />
 
     <!-- Favicon -->
-    <link rel="icon" href="images/favicon.png" />
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
-    <link rel="apple-touch-icon" sizes="72x72" href="images/icon-72x72.png" />
+    <link rel="icon" href="images/artist/flavicon.png" />
+    <link rel="apple-touch-icon" href="./images/artist/flavicon.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="images/artist/flavicon.png"
+    />
     <link
       rel="apple-touch-icon"
       sizes="114x114"
-      href="images/icon-114x114.png"
+      href="images/artist/flavicon.png"
     />
-
+    <script src="https://kit.fontawesome.com/e4e7cdb225.js" crossorigin="anonymous"></script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -50,13 +54,12 @@
 
   <body class="page">
     <header id="top" class="top-header">
-      <!-- Navigation -->
       <nav
         class="navbar navbar-default navbar-expand-lg"
         data-spy="affix"
         data-offset-top="400"
       >
-        <div class="container-fluid">
+        <div id="artist-page" class="container-fluid">
           <a class="navbar-brand" href="index.html">
             <img src="images/logo.png" alt="Site Logo" />
           </a>
@@ -76,86 +79,46 @@
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
-              <li class="active"><a href="index.html">Home</a></li>
-              <li class="dropdown">
-                <a href="about-band.html">About</a>
-                <ul class="dropdown-menu">
-                  <li><a href="about-band.html">About Band</a></li>
-                  <li><a href="about-singer.html">About Singer</a></li>
-                </ul>
+              <li><a href="index.html">Inicio</a></li>
+              <li>
+                <a href="about-singer.html">Artista</a>
               </li>
-              <li><a href="album.html">Album</a></li>
-              <li class="dropdown">
-                <a href="upcoming-concert.html">Concert</a>
-                <ul class="dropdown-menu">
-                  <li><a href="upcoming-concert.html">Upcoming Concert</a></li>
-                  <li><a href="concert-single.html">Single Concert</a></li>
-                </ul>
+              <li class="active">
+                <a href="concert-single.html">Conciertos</a>
               </li>
               <li class="dropdown">
-                <a href="gallery-3-col.html">Gallery</a>
-                <ul class="dropdown-menu">
-                  <li><a href="gallery-3-col.html">3 Column</a></li>
-                  <li><a href="gallery-4-col.html">4 Column</a></li>
+                <a href="#">Albums</a>
+                <ul id="drop-down-adj" class="dropdown-menu">
+                  <li><a href="album.html">Moonlight</a></li>
+                  <li><a href="album-2.html">Sin Miedo</a></li>
                 </ul>
               </li>
-              <li class="dropdown">
-                <a href="shop-3-col.html">Shop</a>
-                <ul class="dropdown-menu">
-                  <li><a href="shop-3-col.html">Shop 3 Column</a></li>
-                  <li><a href="shop-4-col.html">Shop 4 Column</a></li>
-                </ul>
+              <li>
+                <a href="gallery-3-col.html">Galería</a>
               </li>
-              <li class="dropdown">
-                <a href="blog-mesonry.html">Blog</a>
-                <ul class="dropdown-menu">
-                  <li><a href="blog-mesonry.html">Blog Mesonry</a></li>
-                  <li><a href="blog-list.html">Blog List</a></li>
-                  <li><a href="blog-single.html">Blog Single</a></li>
-                </ul>
+              <li>
+                <a href="shop-3-col.html">Tienda</a>
               </li>
-              <li class="dropdown">
-                <a href="#">Pages</a>
-                <ul class="dropdown-menu">
-                  <li><a href="contact.html">Contact</a></li>
-                  <li><a href="faq.html">FAQ Page</a></li>
-                </ul>
+              <li>
+                <a href="contact.html">Contacto</a>
               </li>
             </ul>
-            <div class="nav navbar-nav navbar-right search-nav">
-              <a id="search-toggle" class="search-toggle" href="#"
-                ><i class="fa fa-search"></i
-              ></a>
-              <div id="header-search-wrap" class="header-search-wrap">
-                <form class="header-search" action="#" method="post">
-                  <input
-                    type="search"
-                    name="s"
-                    placeholder="Search..."
-                    required
-                  />
-                  <button type="submit" name="searchsubmit">
-                    <i class="fa fa-search"></i>
-                  </button>
-                </form>
-              </div>
             </div>
           </div>
         </div>
       </nav>
-      <!-- Navigation End -->
     </header>
 
     <!-- Page Header -->
-    <div class="page-header">
+    <div id="concert-page" class="page-header">
       <div class="container text-center">
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb text-center">
-            <li class="breadcrumb-item"><a href="#">Home</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Concert</li>
+            <li class="breadcrumb-item"><a href="#"></a></li>
+            <li class="breadcrumb-item active" aria-current="page"></li>
           </ol>
         </nav>
-        <h1 class="page-title">Dark Night Show</h1>
+        <h1 class="page-title">Próximos Conciertos</h1>
       </div>
     </div>
     <!-- Page Header End -->
@@ -170,31 +133,36 @@
                 <div class="concert-thumb">
                   <img
                     class="img-responsive"
-                    src="images/concert/single.jpg"
+                    src="images/concert/single.png"
                     alt="Concert Thumb"
                   />
                 </div>
-                <h3 class="concert-title">Dark Night Show</h3>
+                <h3 class="concert-title">Moonlight World Tour (Live Stream)</h3>
                 <p class="concert-metas">
                   <span class="concert-meta concert-date"
-                    ><label>Date:</label> 18 December to 25 December</span
+                    ><label>Fecha:</label> 07 de Noviembre de 2020</span
                   >
                   <span class="concert-meta concert-venue"
-                    ><label>Venue:</label> California, USA</span
+                    ><label>Wegow:</label> Live Room by TMG&CA</span
                   >
                 </p>
                 <div class="concert-entry">
                   <p>
-                    Worem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut Wlabore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco Wlabore et dolore magna aliqua. Ut enim Worem ipsum
-                    dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut Wlabore et dolore magna aliqua. Ut enim
-                    ad minim veniam, quis nostrud exercitation ullamco Wlabore
-                    et dolore magna aliqua. Ut enim
+                    Moonlight World Tour, Entradas para Ingrid Löw en Ciudad de Mexico, es un concierto de Streaming que tiene lugar el 07/11/2020 a las 14:00 en Live Room by TMG&CA.
+                    <br>
+                   <p> Mexico: 2:00PM<br>
+                        Chile: 3:00PM<br>
+                        Argentina: 4:00PM<br>
+                        Colombia: 2:00PM<br>
+                        West Coast USA: 12:00PM<br>
+                        East Coast USA: 3:00PM<br>
+                        Spain: 9:00PM<br>
+                        Germany: 9:00PM<br>
+                        England: 8:00PM<br>
+                        Finland: 9:00PM<br>
+                        Iceland: 7:00PM<br></p>
                   </p>
-                  <div class="row">
+                  <!-- <div class="row">
                     <div class="col-xl-6 col-12">
                       <div class="schedules">
                         <div class="schedule-item">
@@ -227,8 +195,8 @@
                         ></iframe>
                       </div>
                     </div>
-                  </div>
-                  <p>
+                  </div> -->
+                  <!-- <p>
                     Worem ipsum dolor sit amet, consectetur adipisicing elit,
                     sed do eiusmod tempor incididunt ut Wlabore et dolore magna
                     aliqua. Ut enim ad minim veniam, quis nostrud exercitation
@@ -237,7 +205,7 @@
                     tempor incididunt ut Wlabore et dolore magna aliqua. Ut enim
                     ad minim veniam, quis nostrud exercitation ullamco Wlabore
                     et dolore magna aliqua. Ut enim
-                  </p>
+                  </p> -->
                 </div>
               </article>
               <div class="performer-section">
@@ -246,41 +214,41 @@
                   <div class="col-lg-6 col-12">
                     <div class="artist">
                       <a class="artist-avatar" href="artist-single.html">
-                        <img src="images/artist/1.jpg" alt="..." />
+                        <img src="images/artist/1.png" alt="..." />
                       </a>
                       <h4 class="artist-name">
-                        <a href="artist-single.html">Smith Bravo</a>
+                        <a href="artist-single.html">Ingrid Löw</a>
                       </h4>
-                      <p class="artist-role">Rock Singer</p>
+                      <p class="artist-role">Solista, intérprete y compositora</p>
                     </div>
                     <div class="artist">
                       <a class="artist-avatar" href="artist-single.html">
-                        <img src="images/artist/2.jpg" alt="..." />
+                        <img src="images/artist/3.png" alt="..." />
                       </a>
                       <h4 class="artist-name">
-                        <a href="artist-single.html">Maria Jack</a>
+                        <a href="artist-single.html">Duck Duck Jones</a>
                       </h4>
-                      <p class="artist-role">Rock Singer</p>
+                      <p class="artist-role">Mascota</p>
                     </div>
                   </div>
                   <div class="col-lg-6 col-12">
                     <div class="artist">
                       <a class="artist-avatar" href="artist-single.html">
-                        <img src="images/artist/3.jpg" alt="..." />
+                        <img src="images/artist/3.png" alt="..." />
                       </a>
                       <h4 class="artist-name">
-                        <a href="artist-single.html">Merry Luke</a>
+                        <a href="artist-single.html">Duck Duck Jones</a>
                       </h4>
-                      <p class="artist-role">Rock Singer</p>
+                      <p class="artist-role">Mascota</p>
                     </div>
                     <div class="artist">
                       <a class="artist-avatar" href="artist-single.html">
-                        <img src="images/artist/4.jpg" alt="..." />
+                        <img src="images/artist/3.png" alt="..." />
                       </a>
                       <h4 class="artist-name">
-                        <a href="artist-single.html">Luther Gulik</a>
+                        <a href="artist-single.html">Duck Duck Jones</a>
                       </h4>
-                      <p class="artist-role">Rock Singer</p>
+                      <p class="artist-role">Mascota</p>
                     </div>
                   </div>
                 </div>
@@ -290,94 +258,82 @@
               <div class="sidebar concert-sidebar">
                 <!-- Ticket widget -->
                 <aside class="widget ticket-widget">
-                  <h4 class="widget-title">Ticket Pricing</h4>
+                  <h4 class="widget-title">Precio de Boletos</h4>
                   <div class="ticket-pricing">
                     <div class="ticket-pricing-item">
                       <p class="ticket-pack-name">Standard<br />Ticket</p>
-                      <p class="ticket-price">$45</p>
-                      <a class="ticket-btn" href="#">Buy Now</a>
-                    </div>
-                    <div class="ticket-pricing-item">
-                      <p class="ticket-pack-name">Premium<br />Ticket</p>
-                      <p class="ticket-price">$55</p>
-                      <a class="ticket-btn" href="#">Buy Now</a>
-                    </div>
-                    <div class="ticket-pricing-item">
-                      <p class="ticket-pack-name">Exclusive<br />Ticket</p>
-                      <p class="ticket-price">$65</p>
-                      <a class="ticket-btn" href="#">Buy Now</a>
+                      <p class="ticket-price">$100</p>
+                      <a class="ticket-btn" href="#">Comprar</a>
                     </div>
                     <div class="ticket-pricing-item">
                       <p class="ticket-pack-name">VIP<br />Ticket</p>
-                      <p class="ticket-price">$95</p>
-                      <a class="ticket-btn" href="#">Buy Now</a>
+                      <p class="ticket-price">$1,000</p>
+                      <a class="ticket-btn" href="#">Comprar</a>
+                    </div>
+                    <div class="ticket-pricing-item">
+                      <p class="ticket-pack-name">Meet &amp; Greet<br />Ticket</p>
+                      <p class="ticket-price">$2,000</p>
+                      <a class="ticket-btn" href="#">Comprar</a>
+                    </div>
+                    <div class="ticket-pricing-item">
+                      <p class="ticket-pack-name">Se pueden agregar más</p>
+                      <p class="ticket-price">$10,000</p>
+                      <a class="ticket-btn" href="#">Comprar</a>
                     </div>
                   </div>
                 </aside>
 
                 <!-- Upcoming music show -->
                 <aside class="widget upcoming-show-widget">
-                  <h4 class="widget-title">Upcoming Music Show</h4>
+                  <h4 class="widget-title">Próximas Presentaciones</h4>
                   <div class="upcoming-shows">
                     <div class="upcoming-show-item">
                       <div class="show-content">
-                        <h5 class="show-title">22 December</h5>
+                        <h5 class="show-title">07 Noviembre</h5>
                         <p class="show-venue">
-                          <i class="fa fa-map-marker"></i> Park Street, CA, USA
+                          <i class="fa fa-map-marker"></i> Live Streaming
                         </p>
                         <p class="show-type">
-                          <i class="fa fa-music"></i> Rock &amp; Roll
+                          <i class="fa fa-music"></i> Moonlight World Tour
                         </p>
                       </div>
-                      <a class="ticket-btn" href="#">Buy Now</a>
+                      <a class="ticket-btn" href="#">Comprar</a>
                     </div>
                     <div class="upcoming-show-item">
                       <div class="show-content">
-                        <h5 class="show-title">23 December</h5>
+                        <h5 class="show-title">19 Diciembre</h5>
                         <p class="show-venue">
-                          <i class="fa fa-map-marker"></i> Park Street, CA, USA
+                          <i class="fa fa-map-marker"></i> Live Streaming
                         </p>
                         <p class="show-type">
-                          <i class="fa fa-music"></i> Rock &amp; Roll
+                          <i class="fa fa-music"></i> Sin Miedo (Deluxe Edition)
                         </p>
                       </div>
-                      <a class="ticket-btn" href="#">Buy Now</a>
+                      <a class="ticket-btn" href="#">Comprar</a>
                     </div>
                     <div class="upcoming-show-item">
                       <div class="show-content">
-                        <h5 class="show-title">25 December</h5>
+                        <h5 class="show-title">26 Diciembre</h5>
                         <p class="show-venue">
-                          <i class="fa fa-map-marker"></i> Park Street, CA, USA
+                          <i class="fa fa-map-marker"></i> Live Streaming
                         </p>
                         <p class="show-type">
-                          <i class="fa fa-music"></i> Rock &amp; Roll
+                          <i class="fa fa-music"></i>Moonlight EP (Studio Version)
                         </p>
                       </div>
-                      <a class="ticket-btn" href="#">Buy Now</a>
+                      <a class="ticket-btn" href="#">Comprar</a>
                     </div>
-                    <div class="upcoming-show-item">
-                      <div class="show-content">
-                        <h5 class="show-title">28 December</h5>
-                        <p class="show-venue">
-                          <i class="fa fa-map-marker"></i> Park Street, CA, USA
-                        </p>
-                        <p class="show-type">
-                          <i class="fa fa-music"></i> Rock &amp; Roll
-                        </p>
-                      </div>
-                      <a class="ticket-btn" href="#">Buy Now</a>
-                    </div>
-                  </div>
+                    
                 </aside>
 
                 <!-- Sponsors -->
                 <aside class="widget sponsors-widget">
-                  <h4 class="widget-title">Sponsors</h4>
+                  <h4 class="widget-title">Patrocinadores</h4>
                   <div class="sponsors">
-                    <a class="sponsor-item" href="#"
-                      ><img src="images/sponsors/1.png" alt="sponsor logo"
+                    <a class="sponsor-item" href="https://www.instagram.com/taxicabmusicmx/" target="_blank"
+                      ><img src="images/sponsors/taxicab.png" alt="sponsor logo"
                     /></a>
-                    <a class="sponsor-item" href="#"
+                    <!-- <a class="sponsor-item" href="#"
                       ><img src="images/sponsors/2.png" alt="sponsor logo"
                     /></a>
                     <a class="sponsor-item" href="#"
@@ -391,7 +347,7 @@
                     /></a>
                     <a class="sponsor-item" href="#"
                       ><img src="images/sponsors/6.png" alt="sponsor logo"
-                    /></a>
+                    /></a> -->
                   </div>
                 </aside>
               </div>
@@ -400,212 +356,253 @@
         </div>
       </div>
       <!-- Single concert section End -->
-
-      <!-- Artist's Gallery -->
-      <div class="section">
-        <div
-          id="artist-gallery-carousel"
-          class="artist-gallery-carousel owl-carousel"
-        >
-          <div class="artist-gallery-item">
-            <img src="images/artist/gallery-1.jpg" alt="Gallery Image" />
-            <div class="artist-gallery-hover">
-              <div class="artist-gallery-content">
-                <a
-                  class="gallery-zoom image-large"
-                  href="images/artist/gallery-1.jpg"
-                  ><i class="fa fa-search-plus"></i
-                ></a>
-                <h5 class="artist-image-title">Some Memories</h5>
-              </div>
-            </div>
-          </div>
-          <div class="artist-gallery-item">
-            <img src="images/artist/gallery-2.jpg" alt="Gallery Image" />
-            <div class="artist-gallery-hover">
-              <div class="artist-gallery-content">
-                <a
-                  class="gallery-zoom image-large"
-                  href="images/artist/gallery-2.jpg"
-                  ><i class="fa fa-search-plus"></i
-                ></a>
-                <h5 class="artist-image-title">Some Memories</h5>
-              </div>
-            </div>
-          </div>
-          <div class="artist-gallery-item">
-            <img src="images/artist/gallery-3.jpg" alt="Gallery Image" />
-            <div class="artist-gallery-hover">
-              <div class="artist-gallery-content">
-                <a
-                  class="gallery-zoom image-large"
-                  href="images/artist/gallery-3.jpg"
-                  ><i class="fa fa-search-plus"></i
-                ></a>
-                <h5 class="artist-image-title">Some Memories</h5>
-              </div>
-            </div>
-          </div>
-          <div class="artist-gallery-item">
-            <img src="images/artist/gallery-4.jpg" alt="Gallery Image" />
-            <div class="artist-gallery-hover">
-              <div class="artist-gallery-content">
-                <a
-                  class="gallery-zoom image-large"
-                  href="images/artist/gallery-4.jpg"
-                  ><i class="fa fa-search-plus"></i
-                ></a>
-                <h5 class="artist-image-title">Some Memories</h5>
-              </div>
-            </div>
-          </div>
-          <div class="artist-gallery-item">
-            <img src="images/artist/gallery-1.jpg" alt="Gallery Image" />
-            <div class="artist-gallery-hover">
-              <div class="artist-gallery-content">
-                <a
-                  class="gallery-zoom image-large"
-                  href="images/artist/gallery-1.jpg"
-                  ><i class="fa fa-search-plus"></i
-                ></a>
-                <h5 class="artist-image-title">Some Memories</h5>
-              </div>
-            </div>
-          </div>
-          <div class="artist-gallery-item">
-            <img src="images/artist/gallery-2.jpg" alt="Gallery Image" />
-            <div class="artist-gallery-hover">
-              <div class="artist-gallery-content">
-                <a
-                  class="gallery-zoom image-large"
-                  href="images/artist/gallery-2.jpg"
-                  ><i class="fa fa-search-plus"></i
-                ></a>
-                <h5 class="artist-image-title">Some Memories</h5>
-              </div>
-            </div>
-          </div>
-          <div class="artist-gallery-item">
-            <img src="images/artist/gallery-3.jpg" alt="Gallery Image" />
-            <div class="artist-gallery-hover">
-              <div class="artist-gallery-content">
-                <a
-                  class="gallery-zoom image-large"
-                  href="images/artist/gallery-3.jpg"
-                  ><i class="fa fa-search-plus"></i
-                ></a>
-                <h5 class="artist-image-title">Some Memories</h5>
-              </div>
-            </div>
-          </div>
-          <div class="artist-gallery-item">
-            <img src="images/artist/gallery-4.jpg" alt="Gallery Image" />
-            <div class="artist-gallery-hover">
-              <div class="artist-gallery-content">
-                <a
-                  class="gallery-zoom image-large"
-                  href="images/artist/gallery-4.jpg"
-                  ><i class="fa fa-search-plus"></i
-                ></a>
-                <h5 class="artist-image-title">Some Memories</h5>
-              </div>
-            </div>
-          </div>
+<!-- Artist's Gallery -->
+<div class="section">
+  <div
+    id="artist-gallery-carousel"
+    class="artist-gallery-carousel owl-carousel"
+  >
+    <div class="artist-gallery-item">
+      <img src="images/artist/gallery-1.png" alt="Gallery Image" />
+      <div class="artist-gallery-hover">
+        <div class="artist-gallery-content">
+          <a
+            class="gallery-zoom image-large"
+            href="images/artist/gallery-1.png"
+            alt="Gallery Image"
+            ><i class="fa fa-search-plus"></i
+          ></a>
+          <h5 class="artist-image-title">Algunos Recuerdos</h5>
         </div>
       </div>
-      <!-- Artist's Gallery End -->
-      <a class="instagram-feed-link" href="#"
-        ><i class="fa fa-instagram"></i> / oliviamerry</a
+    </div>
+    <div class="artist-gallery-item">
+      <img src="images/artist/gallery-2.png" alt="Gallery Image" />
+      <div class="artist-gallery-hover">
+        <div class="artist-gallery-content">
+          <a
+            class="gallery-zoom image-large"
+            href="images/artist/gallery-2.png"
+            alt="Gallery Image"
+            ><i class="fa fa-search-plus"></i
+          ></a>
+          <h5 class="artist-image-title">Algunos Recuerdos</h5>
+        </div>
+      </div>
+    </div>
+    <div class="artist-gallery-item">
+      <img src="images/artist/gallery-3.png" alt="Gallery Image" />
+      <div class="artist-gallery-hover">
+        <div class="artist-gallery-content">
+          <a
+            class="gallery-zoom image-large"
+            href="images/artist/gallery-3.png"
+            alt="Gallery Image"
+            ><i class="fa fa-search-plus"></i
+          ></a>
+          <h5 class="artist-image-title">Algunos Recuerdos</h5>
+        </div>
+      </div>
+    </div>
+    <div class="artist-gallery-item">
+      <img src="images/artist/gallery-4.png" alt="Gallery Image" />
+      <div class="artist-gallery-hover">
+        <div class="artist-gallery-content">
+          <a
+            class="gallery-zoom image-large"
+            href="images/artist/gallery-4.png"
+            alt="Gallery Image"
+            ><i class="fa fa-search-plus"></i
+          ></a>
+          <h5 class="artist-image-title">Algunos Recuerdos</h5>
+        </div>
+      </div>
+    </div>
+    <div class="artist-gallery-item">
+      <img src="images/artist/gallery-5.png" alt="Gallery Image" />
+      <div class="artist-gallery-hover">
+        <div class="artist-gallery-content">
+          <a
+            class="gallery-zoom image-large"
+            href="images/artist/gallery-5.png"
+            alt="Gallery Image"
+            ><i class="fa fa-search-plus"></i
+          ></a>
+          <h5 class="artist-image-title">Algunos Recuerdos</h5>
+        </div>
+      </div>
+    </div>
+    <div class="artist-gallery-item">
+      <img src="images/artist/gallery-6.png" alt="Gallery Image" />
+      <div class="artist-gallery-hover">
+        <div class="artist-gallery-content">
+          <a
+            class="gallery-zoom image-large"
+            href="images/artist/gallery-6.png"
+            alt="Gallery Image"
+            ><i class="fa fa-search-plus"></i
+          ></a>
+          <h5 class="artist-image-title">Algunos Recuerdos</h5>
+        </div>
+      </div>
+    </div>
+    <div class="artist-gallery-item">
+      <img src="images/artist/gallery-7.png" alt="Gallery Image" />
+      <div class="artist-gallery-hover">
+        <div class="artist-gallery-content">
+          <a
+            class="gallery-zoom image-large"
+            href="images/artist/gallery-7.png"
+            alt="Gallery Image"
+            ><i class="fa fa-search-plus"></i
+          ></a>
+          <h5 class="artist-image-title">Algunos Recuerdos</h5>
+        </div>
+      </div>
+    </div>
+    <div class="artist-gallery-item">
+      <img src="images/artist/gallery-8.png" alt="Gallery Image" />
+      <div class="artist-gallery-hover">
+        <div class="artist-gallery-content">
+          <a
+            class="gallery-zoom image-large"
+            href="images/artist/gallery-8.png"
+            alt="Gallery Image"
+            ><i class="fa fa-search-plus"></i
+          ></a>
+          <h5 class="artist-image-title">Algunos Recuerdos</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Artist's Gallery End -->
+</div>
+<a class="instagram-feed-link" href="https://www.instagram.com/ingridlowmusic/"
+><i class="fa fa-instagram"></i> / ingridlowmusic</a
+>
+
+<footer>
+<!-- Footer Subscribe -->
+<div class="subscription-area section-padding theme-bg">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="section-header left-style">
+          <h3 class="section-title">Suscríbete a mi<br />Newsletter</h3>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <form class="subscription" action="#" method="post">
+          <input
+            type="email"
+            name="email"
+            placeholder="Ingresa tu e-mail aquí"
+            required
+          />
+          <button type="submit" class="btn btn-white">Enviar</button>
+          <p class="newsletter-success"></p>
+          <p class="newsletter-error"></p>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Footer Subscribe -->
+
+<!-- Footer logo and social media button -->
+<div class="logo-social-area section-padding text-white">
+  <div class="container text-center">
+    <a class="logo logo-footer" href="index.html">
+      <img src="images/logo.png" alt="Site Logo" />
+    </a>
+    <div class="footer-contact">
+      <a id="whatsapp" href="https://wa.me/5215519538759" target="_blank">
+        <p class="phone">
+          <i class="fa fa-whatsapp"></i> +52 1 1953 8759
+        </p></a
       >
     </div>
+    <div class="footer-contact">
+      <p class="email">
+        <i class="fa fa-envelope-o"></i> contact@ingridlowmusic.com
+      </p>
+    </div>
+    <div class="socials">
+      <a href="https://www.facebook.com/ingridlowmusic/" target="_blank"
+        ><i class="fa fa-facebook"></i
+      ></a>
+      <a href="https://www.instagram.com/ingridlowmusic/" target="_blank"
+        ><i class="fa fa-instagram"></i
+      ></a>
+      <a href="https://twitter.com/ingridlowmusic" target="_blank"
+        ><i class="fa fa-twitter"></i
+      ></a>
+      <a href="https://ingridlowmusic.bandcamp.com/" target="_blank"
+        ><i class="fa fa-bandcamp"></i
+      ></a>
+      <a
+        href="https://www.youtube.com/watch?v=IDft1lkrIx8&list=PLGKXeAkj_cvfVqDSD9PfapvRVnZ1ruBi2&index=1"
+        target="_blank"
+        ><i class="fa fa-youtube-play"></i
+      ></a>
+      <a
+        href="https://open.spotify.com/artist/2n6Jy76siB3grnsaTFyv5Q?autoplay=true"
+        target="_blank"
+        ><i class="fa fa-spotify"></i
+      ></a>
+      <a
+        href="https://music.youtube.com/channel/UC_-XZmQ7ZGj7cYyUkWrWDyg"
+        target="_blank"
+        ><i class="fa fa-play-circle"></i
+      ></a>
+      <a
+      href="https://www.tiktok.com/@ingridlowmusic"
+      target="_blank"
+      ><i class="fab fa-tiktok"></i
+    ></a>
+    </div>
+  </div>
+</div>
+<!-- Footer logo and social media button -->
 
-    <footer>
-      <!-- Footer Subscribe -->
-      <div class="subscription-area section-padding theme-bg">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="section-header left-style">
-                <h3 class="section-title">Subscribe to the<br />Newsletter</h3>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <form class="subscription" action="#" method="post">
-                <input
-                  type="email"
-                  name="email"
-                  placeholder="Enter your mail here"
-                  required
-                />
-                <button type="submit" class="btn btn-white">Subscribe</button>
-                <p class="newsletter-success"></p>
-                <p class="newsletter-error"></p>
-              </form>
-            </div>
-          </div>
-        </div>
+<!-- Footer copyrgiht and navigation -->
+<div class="copyright-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-12">
+        <p class="copyright">
+          Todos los Derechos Reservados &copy; 2020,
+          <a href="#">Ingrid Löw Music</a>.
+        </p>
       </div>
-      <!-- Footer Subscribe -->
-
-      <!-- Footer logo and social media button -->
-      <div class="logo-social-area section-padding text-white">
-        <div class="container text-center">
-          <a class="logo logo-footer" href="index.html">
-            <img src="images/logo-footer.png" alt="Site Logo" />
-          </a>
-          <div class="footer-contact">
-            <p class="phone"><i class="fa fa-phone"></i> +12-0000-000000</p>
-            <p class="email">
-              <i class="fa fa-envelope-o"></i> info@example.com
-            </p>
-          </div>
-          <div class="socials">
-            <a href="#"><i class="fa fa-facebook"></i></a>
-            <a href="#"><i class="fa fa-twitter"></i></a>
-            <a href="#"><i class="fa fa-google-plus"></i></a>
-            <a href="#"><i class="fa fa-youtube-play"></i></a>
-            <a href="#"><i class="fa fa-vimeo"></i></a>
-          </div>
-        </div>
+      <div class="col-md-6 col-12">
+        <p class="credit-text">
+          Hecho con 🧡 por
+          <a href="https://www.startuphunt.io/">Startuphunt.io</a>
+        </p>
       </div>
-      <!-- Footer logo and social media button -->
+    </div>
+  </div>
+</div>
+<!-- Footer copyrgiht and navigation -->
+</footer>
 
-      <!-- Footer copyrgiht and navigation -->
-      <div class="copyright-footer">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6 col-12">
-              <p class="copyright">
-                Copyright &copy; 2018, <a href="#">Mxtonz</a>. All Right
-                Reserved
-              </p>
-            </div>
-            <div class="col-md-6 col-12">
-              <p class="credit-text">
-                Designed by <a href="#">CodePassenger</a>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Footer copyrgiht and navigation -->
-    </footer>
-
-    <!-- Script -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/owl.carousel.js"></script>
-    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
-    <script src="assets/js/plyr.js"></script>
-    <script src="assets/js/jquery.ajaxchimp.min.js"></script>
-    <script src="assets/js/isotope.pkgd.min.js"></script>
-    <script src="assets/js/jquery.countdown.min.js"></script>
-    <script src="assets/js/tether.min.js"></script>
-    <script src="assets/js/jquery.slimscroll.min.js"></script>
-    <script src="assets/js/amplitude.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAmiJjq5DIg_K9fv6RE72OY__p9jz0YTMI"></script>
-    <script src="js/map.js"></script>
-    <script src="js/custom.js"></script>
-  </body>
+<!-- Script -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/owl.carousel.js"></script>
+<script src="assets/js/imagesloaded.pkgd.min.js"></script>
+<script src="assets/js/jquery.magnific-popup.min.js"></script>
+<script src="assets/js/plyr.js"></script>
+<script src="assets/js/jquery.ajaxchimp.min.js"></script>
+<script src="assets/js/isotope.pkgd.min.js"></script>
+<script src="assets/js/jquery.countdown.min.js"></script>
+<script src="assets/js/tether.min.js"></script>
+<script src="assets/js/jquery.slimscroll.min.js"></script>
+<script src="assets/js/amplitude.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAmiJjq5DIg_K9fv6RE72OY__p9jz0YTMI"></script>
+<script src="js/map.js"></script>
+<script src="js/custom.js"></script>
+</body>
 </html>
