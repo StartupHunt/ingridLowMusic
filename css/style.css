@@ -123,7 +123,9 @@ a:hover {
   background-size: cover;
   background-position: center center;
 }
-
+#tienda {
+  background-color: #212121;
+}
 .section-padding {
   padding: 120px 0;
 }
@@ -2273,6 +2275,14 @@ Page Header
 
 #album-header-3 {
   background-image: url(../images/banner/8.png);
+}
+
+#album-header-4 {
+  background-image: url(../images/banner/10.png);
+}
+
+#h1-album {
+  color: #fc1864;
 }
 
 .page-header {
