@@ -366,16 +366,16 @@ Button
   color: #ffffff;
 }
 .btn.btn-black {
-  background-color: #111111;
-  border-color: #111111;
+  background-color: #fc427f;
+  border-color: #ffffff;
   color: #ffffff !important;
 }
 .btn.btn-black:active,
 .btn.btn-black:focus,
 .btn.btn-black:active:focus,
 .btn.btn-black:visited {
-  background-color: #111111;
-  border-color: #111111;
+  background-color: #fc427f;
+  border-color: #ffffff;
   color: #ffffff !important;
 }
 .btn.btn-black:hover,
@@ -489,6 +489,7 @@ Header
 .navbar-default .navbar-nav > li > .dropdown-menu {
   border-top: 3px solid #fc427f;
 }
+
 .navbar-default .navbar-nav > li.dropdown > a:after {
   content: "\f107";
   font-family: "FontAwesome";
@@ -1238,9 +1239,8 @@ Products
   bottom: 0;
   left: 0;
   right: 0;
-  padding: 30px;
   text-align: center;
-  background-color: rgba(17, 17, 17, 0.55);
+  background-color: rgba(95, 95, 95, 0.55);
   opacity: 0;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
@@ -1435,6 +1435,10 @@ Music Player
   margin-bottom: 0;
   background-color: #f7f7f7;
   padding: 60px 40px;
+}
+
+#sinmiedo {
+  background-color: rgba(15, 15, 15, 0.66);
 }
 
 .album-art-block .track-meta-info {
@@ -1649,6 +1653,7 @@ Music Player
 .theme-bg .player-main-block {
   background-color: rgba(255, 255, 255, 0.33);
 }
+
 .text-white .album-art-block .track-meta-info,
 .theme-bg .album-art-block .track-meta-info {
   color: #ffffff;
@@ -2262,6 +2267,14 @@ Page Header
   background-image: url(../images/banner/6.png);
 }
 
+#album-header-2 {
+  background-image: url(../images/banner/7.png);
+}
+
+#album-header-3 {
+  background-image: url(../images/banner/8.png);
+}
+
 .page-header {
   background-image: url(../images/banner/4.png);
   background-size: cover;
@@ -2654,9 +2667,12 @@ Album
   margin-top: 0;
   font-size: 3.4rem;
   margin-bottom: 16px;
+  font-family: "Montserrat";
 }
 .about-album p {
   margin-bottom: 30px;
+  color: #111111;
+  font-weight: 350;
 }
 .about-album .album-information-list {
   margin-top: 50px;
@@ -2681,6 +2697,12 @@ Album
   background-position: center center;
   background-size: cover;
 }
+.tracks-section-2 {
+  background-image: url(../images/bg/14.png);
+  background-position: center center;
+  background-size: cover;
+}
+
 .tracks-section .overlay {
   background-color: rgba(17, 17, 17, 0.8);
 }
@@ -2739,24 +2761,17 @@ Album
   color: #ffffff;
 }
 
-.rating-star {
+#rating-star {
   color: #fc427f;
-}
-.rating-star + .rating-star {
-  margin-left: 6px;
-}
-.rating-star:before {
-  content: "\f005";
-  font-family: "FontAwesome";
   font-size: 1.4rem;
 }
-.rating-star.on:before {
-  content: "\f005";
+#rating-star + #rating-star {
+  margin-left: 6px;
 }
 
 /*** Purchase From ***/
 .purchase-section {
-  background-image: url(../images/bg/purchase-bg.jpg);
+  background-image: url(../images/bg/purchase-bg.png);
   background-position: center center;
   background-size: cover;
 }
@@ -2773,6 +2788,7 @@ Album
   padding: 0;
   min-width: 166px;
   text-align: center;
+  margin-top: 10px;
 }
 .purchase-button-wrap .btn + .btn {
   margin-left: 26px;
@@ -2789,6 +2805,12 @@ Album
 /*--------------------------------
 Single Concert Page
 --------------------------------*/
+#concierto > p {
+  font-family: "Montserrat", sans-serif;
+  color: #111111;
+  font-size: 16px;
+  font-weight: 350;
+}
 .concert-single .concert-thumb {
   margin-bottom: 50px;
 }

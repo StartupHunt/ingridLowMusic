@@ -1,41 +1,11 @@
-$(document).ready(function () {
-    'use strict';
-
-    function initialize() {
-        $(".google-map").each(function (index) {
-
-            //Taking data attribute from map wrapper
-            var mapLat = parseFloat($(this).data('lat'));
-            var mapLng = parseFloat($(this).data('lng'));
-            var mapZoom = parseInt($(this).data('zoom'));
-
-            //Processing wrapper data attribute to coordinate
-            var mapOptions = {
-                center: {
-                    lat: mapLat,
-                    lng: mapLng
-                },
-                zoom: mapZoom,
-                scrollwheel: false,
-                styles: [{
-                    featureType: "all",
-                    elementType: "all",
-                    "stylers": [{
-                        "saturation": -100
-                    }]
-                }]
-            };
-
-            //Initiating map
-            var map = new google.maps.Map(this, mapOptions);
-
-            //Map Marker
-            var marker = new google.maps.Marker({
-                position: new google.maps.LatLng(mapLat, mapLng),
-                map: map,
-                icon: 'images/contact/map-marker.png'
-            });
-        });
-    }
-    google.maps.event.addDomListener(window, 'load', initialize);
-});
+function initMap() {
+  // The location of Uluru
+  var taxicab = { lat: 19.4299836, lng: -99.1566844 };
+  // The map, centered at Uluru
+  var map = new google.maps.Map(document.getElementById("google-map"), {
+    zoom: 20,
+    center: taxicab,
+  });
+  // The marker, positioned at Uluru
+  var marker = new google.maps.Marker({ position: taxicab, map: map });
+}
