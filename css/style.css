@@ -575,7 +575,7 @@ Header
   background-color: transparent;
 }
 .page .navbar-default {
-  position: relative;
+  position: fixed;
 }
 .navbar-default.affix {
   position: fixed;
@@ -2289,7 +2289,7 @@ Page Header
   background-image: url(../images/banner/4.png);
   background-size: cover;
   background-position: center center;
-  margin: 0;
+  margin-top: 70px;
   padding: 160px 0;
   border: none;
   border-radius: 0;
