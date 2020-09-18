@@ -1,15 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-  <!--<a href='https://www.freepik.com/photos/background'>Background photo created by awesomecontent - www.freepik.com</a>-->
-  <!--<a href='https://www.freepik.com/vectors/background'>Background vector created by vectorpocket - www.freepik.com</a>-->
-  <!--<a href='https://www.freepik.com/vectors/background'>Background vector created by Creative_hat - www.freepik.com</a>  -->
   <head>
     <!-- Site information -->
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Ingrid Löw &amp; Music</title>
-    <meta name="description" content="Sitio Web oficial de Ingrid Löw." />
+    <meta name="description" content="Sitio Web oficial de Ingrid Löw" />
 
     <!-- External CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
@@ -31,17 +28,17 @@
     />
 
     <!-- Favicon -->
-    <link rel="icon" href="images/artist/flavicon.png" />
-    <link rel="apple-touch-icon" href="./images/artist/flavicon.png" />
+    <link rel="icon" href="images/artist/flavicon.webp" />
+    <link rel="apple-touch-icon" href="./images/artist/flavicon.webp" />
     <link
       rel="apple-touch-icon"
       sizes="72x72"
-      href="images/artist/flavicon.png"
+      href="images/artist/flavicon.webp"
     />
     <link
       rel="apple-touch-icon"
       sizes="114x114"
-      href="images/artist/flavicon.png"
+      href="images/artist/flavicon.webp"
     />
     <script src="https://kit.fontawesome.com/e4e7cdb225.js" crossorigin="anonymous"></script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -61,7 +58,7 @@
       >
         <div id="artist-page" class="container-fluid">
           <a class="navbar-brand" href="index.html">
-            <img src="images/logo.png" alt="Site Logo" />
+            <img src="images/logo.webp" alt="Site Logo" />
           </a>
           <button
             class="navbar-toggler navbar-toggle collapsed"
@@ -172,8 +169,9 @@
                                 <textarea rows="5" name="message" id="message" placeholder="Mensaje" required></textarea>
                             </p>
                             <p>
-                                <button type="submit" class="btn btn-white">Enviar Mensaje</button>
+                              <button type="submit" class="btn btn-white">Enviar Mensaje</button>
                             </p>
+                            <h5><?= $result; ?></h5>
                             <p class="input-success">Tu mensaje ha sido enviado. Te responderemos pronto.</p>
                             <p class="input-error">Lo sentimos, tu mensaje no se ha enviado por algún error en los campos anteriores.</p>
                         </form>
@@ -221,7 +219,7 @@
         <div class="logo-social-area section-padding text-white">
           <div class="container text-center">
             <a class="logo logo-footer" href="index.html">
-              <img src="images/logo.png" alt="Site Logo" />
+              <img src="images/logo.webp" alt="Site Logo" />
             </a>
             <div class="footer-contact">
               <a id="whatsapp" href="https://wa.me/5215519538759" target="_blank">
@@ -297,6 +295,14 @@
       <script defer
 src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDRXX9eDqCoQ-wlViO5qhpKPRQ3raXKxY8&callback=initMap">
 </script>
+
+<!-- <script>
+  function resetForm() {
+   const frm = document.getElementById('contactForm');
+   frm.reset();  // Reset all form data
+   return false; // Prevent page refresh
+};
+</script> -->
       <!-- Script -->
       <script src="assets/js/jquery.min.js"></script>
       <script src="assets/js/bootstrap.min.js"></script>
@@ -315,4 +321,6 @@ src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDRXX9eDqCoQ-wlViO5qhpKPRQ
       <script src="js/custom.js"></script>
     </body>
   </html>
-  
+   <!--<a href='https://www.freepik.com/photos/background'>Background photo created by awesomecontent - www.freepik.com</a>-->
+  <!--<a href='https://www.freepik.com/vectors/background'>Background vector created by vectorpocket - www.freepik.com</a>-->
+  <!--<a href='https://www.freepik.com/vectors/background'>Background vector created by Creative_hat - www.freepik.com</a>  -->

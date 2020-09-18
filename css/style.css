@@ -664,15 +664,15 @@ Banner
 }
 
 .banner-item-1 {
-  background-image: url(../images/banner/1.png);
+  background-image: url(../images/banner/1.webp);
 }
 
 .banner-item-2 {
-  background-image: url(../images/banner/2.png);
+  background-image: url(../images/banner/2.webp);
 }
 
 .banner-item-3 {
-  background-image: url(../images/banner/3.png);
+  background-image: url(../images/banner/3.webp);
 }
 
 .banner-content {
@@ -779,7 +779,7 @@ Upcoming Album
 Upcoming Stage
 ----------------------------*/
 .upcoming-stage-section {
-  background-image: url(../images/bg/upcoming-stage-bg.png);
+  background-image: url(../images/bg/6.webp);
 }
 .upcoming-stage-section .section-header {
   margin-top: 35px;
@@ -864,7 +864,7 @@ Artist
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
-  background-image: url(../images/artist/hover-effect.png);
+  background-image: url(../images/artist/hover-effect.webp);
   top: 0;
   z-index: 0;
   -webkit-transition: all 0.3s ease;
@@ -917,7 +917,7 @@ Artist
 About Singer
 ----------------------------*/
 .about-singer-section {
-  background-image: url(../images/bg/about-singer-bg.png);
+  background-image: url(../images/bg/1.webp);
 }
 
 .about-singer-content .about-singer-title {
@@ -953,7 +953,7 @@ About Singer
 Next Event
 ----------------------------*/
 .next-event-section {
-  background-image: url(../images/bg/about-singer-bg.jpg);
+  background-image: url(../images/bg/1.webp);
 }
 
 .next-event-content .next-event-title {
@@ -1006,7 +1006,7 @@ Show Styles
   border-bottom: none;
 }
 .show-table tr:hover {
-  background-image: url(../images/bg/show-table-bg.png);
+  background-image: url(../images/bg/5.webp);
 }
 .show-table tr:hover .show-date,
 .show-table tr:hover .show-hall,
@@ -1179,7 +1179,7 @@ Latest Album
 }
 
 .latest-album-section {
-  background-image: url(../images/bg/upcoming-stage-bg2.png);
+  background-image: url(../images/bg/7.webp);
   padding: 40px 0;
 }
 .latest-album-section .section-header {
@@ -2079,7 +2079,7 @@ Footer
   color: #fcc140;
 }
 .logo-social-area {
-  background-image: url(../images/bg/footer.png);
+  background-image: url(../images/bg/3.webp);
   background-position: center center;
   background-size: cover;
 }
@@ -2137,23 +2137,23 @@ Footer
 Page Header
 --------------------------------*/
 #concert-page {
-  background-image: url(../images/banner/5.png);
+  background-image: url(../images/banner/5.webp);
 }
 
 #album-header {
-  background-image: url(../images/banner/6.png);
+  background-image: url(../images/banner/6.webp);
 }
 
 #album-header-2 {
-  background-image: url(../images/banner/7.png);
+  background-image: url(../images/banner/7.webp);
 }
 
 #album-header-3 {
-  background-image: url(../images/banner/8.png);
+  background-image: url(../images/banner/8.webp);
 }
 
 #album-header-4 {
-  background-image: url(../images/banner/10.png);
+  background-image: url(../images/banner/10.webp);
 }
 
 #h1-album {
@@ -2161,7 +2161,7 @@ Page Header
 }
 
 .page-header {
-  background-image: url(../images/banner/4.png);
+  background-image: url(../images/banner/4.webp);
   background-size: cover;
   background-position: center center;
   margin-top: 70px;
@@ -2245,7 +2245,7 @@ About Band
 }
 
 .what-we-do-section .side-img {
-  background-image: url(../images/band/what-we-do.jpg);
+  background-image: url(../images/band/what-we-do.webp);
 }
 
 .doing-item + .doing-item {
@@ -2578,12 +2578,12 @@ Album
 
 /*** Track Section ***/
 .tracks-section {
-  background-image: url(../images/bg/album-tracks-bg.png);
+  background-image: url(../images/bg/2.webp);
   background-position: center center;
   background-size: cover;
 }
 .tracks-section-2 {
-  background-image: url(../images/bg/14.png);
+  background-image: url(../images/bg/14.webp);
   background-position: center center;
   background-size: cover;
 }
@@ -2656,7 +2656,7 @@ Album
 
 /*** Purchase From ***/
 .purchase-section {
-  background-image: url(../images/bg/purchase-bg.png);
+  background-image: url(../images/bg/4.webp);
   background-position: center center;
   background-size: cover;
 }
@@ -2889,10 +2889,10 @@ Contact Page
   color: #ffffff;
 }
 .contact-info-item:nth-child(2) {
-  background-image: url(../images/contact/contact-item-2.png);
+  background-image: url(../images/contact/1.webp);
 }
 .contact-info-item:nth-child(4) {
-  background-image: url(../images/contact/contact-item-4.png);
+  background-image: url(../images/contact/2.webp);
 }
 .contact-info-item:nth-child(2n):before {
   content: "";
@@ -2937,7 +2937,7 @@ Contact Page
 }
 
 .contact-form-wrap {
-  background-image: url(../images/contact/form.png);
+  background-image: url(../images/contact/3.webp);
   background-position: center center;
   background-size: cover;
 }
@@ -3188,7 +3188,7 @@ FAQs
 }
 
 .faq-section-2 {
-  background-image: url(../images/bg/faq-2.jpg);
+  background-image: url(../images/bg/faq-2.webp);
   background-position: center center;
   background-size: cover;
 }

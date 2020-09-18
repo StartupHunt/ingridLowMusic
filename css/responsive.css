@@ -443,7 +443,7 @@
   }
 
   .contact-info-item:nth-child(3) {
-    background-image: url(../images/contact/contact-item-4.jpg);
+    background-image: url(../images/contact/2.webp);
   }
   .contact-info-item:nth-child(3):before {
     content: "";
